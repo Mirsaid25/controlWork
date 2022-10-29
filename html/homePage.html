@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="../style/homePage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <a href="./homePage.html"><img class="logo" src="../assets/Icons/logo.svg" height="50px" alt=""></a>
+
+            <span>NAVIGATION</span>
+            <a class="link-homepage" href="./homePage.html"><p>Homepage</p></a>
+            <a href="#"><p>Playlists</p></a>
+            <a href="./settings.html"><p>Settings</p></a>
+
+            <span>PLAYLISTS</span>
+            <a href="./likeSongs.html"><p>Liked songs</p><img src="../assets/Icons/love.svg" height="" alt=""></a>
+
+            <span>LIKED SONGS</span>
+            <div class="liked_songs">
+                <div class="liked_song">
+                    <p>STAY</p>
+                    <p class="music_time">3:52</p>
+                </div>
+            </div>
+        </div>
+        <div class="big_block">
+            <div class="contener">
+                <header>
+                    <div class="header_search_block">
+                        <img src="../assets/Icons/search.svg" alt="">
+                        <input class="search_input" type="text" placeholder="Search by name and artist">
+                        <div class="header_search_block_modal">
+                            <p>Введите имя артиста или название песни</p>
+                        </div>
+                    </div>
+                    <div class="header_right">
+                        <p class="name">Alex Adams</p>
+                        <span class="status">Free User</span>
+                    </div>
+                </header>
+                <div class="swiper_block">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="slide-left">
+                                <h2>Miyagi & Andy Panda</h2>
+                                <p>Темнота</p>
+                                <span>3:56</span>
+                            </div>
+                            <div class="slide-right">
+                                <img src="../assets/img/Темнота.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">    
+                            <div class="slide-left">
+                                <h2>Xcho & Macan</h2>
+                                <p>Memories</p>
+                                <span>2:50</span>
+                            </div>
+                            <div class="slide-right">
+                                <img src="../assets/img/Memories.jpg" alt="">
+                            </div>
+                          </div>
+                          <!-- <div class="swiper-slide">
+                            <div class="slide-left">
+                                <h2>SELENA GOMES</h2>
+                                <p>VICIO</p>
+                                <span>3:53</span>
+                            </div>
+                            <div class="slide-right">
+                                <img src="../assets/img/poto_music.jpg" alt="">
+                            </div>
+                          </div> -->
+                        </div>
+                        <div class="swiper-button-next">
+                            <div class="icon-right">
+                                <img src="../assets/Icons/icon-right-free.svg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-prev">
+                            <div class="icon-right">
+                                <img src="../assets/Icons/icon-left-free.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="list_block">
+                <div class="random-songs">
+                    <p class="color">10 RANDOM SONGS</p>
+                    <div class="random_reload">
+                        <div class="song_block">
+                            <div class="song_block-left">
+                                <span>1</span>
+                                <img src="../assets/Icons/cry.svg" alt="">
+                                <div class="name_song">
+                                    <p>STAY</p>
+                                    <p>Justin Bieber</p>
+                                </div>
+                            </div>
+                            <div class="song_block-right">
+                                <img class="like-heart" src="../assets/Icons/love.svg" alt="">
+                                <p>3:53</p>
+                                <img class="three-dots" src="../assets/Icons/three dots_icon.svg" height="30px" alt="">
+                                <div class="three-dots_modal">
+                                    <div class="dislike">
+                                        <p>DISLIKE</p>
+                                    </div>
+                                    <hr>
+                                    <div class="add_to_playlist">
+                                        <p>ADD TO PLAYLIST</p>
+                                    </div>
+                                    <hr>
+                                    <div class="listen_now">
+                                        <p>LISTEN NOW</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="liked-tracks">
+                    <p class="color">LIKED TRACKS</p>
+                    <div class="random_reload r1">
+                    </div>
+                </div>
+                <div class="resently-listened ">
+                    <p class="color">RESENTLY LISTENED</p>
+                    <div class="random_reload r2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music_player">
+            <div class="music_player_left">
+                <p class="music_player_name_music">Темнота</p>
+                <span class="music_player_artist">Miyagi & Andy Panda</span>
+            </div>
+            <div class="music_player_center">
+                <div class="icons">
+                    <div class="repets_btns">
+                        <div class="repet_green_block_black">
+                            <img class="btn_repet_white" src="../assets/Icons/repeat.svg" alt="">
+                        </div>
+                        <div class="repet_green_block"  >
+                            <img class="btn_repet_black" src="../assets/Icons/repeat.svg" alt="">
+                        </div>
+                        <div class="repet_green_block_one">
+                            <span>1</span>
+                        </div>
+                    </div>
+                    <img class="track_next" src="../assets/Icons/track-next.svg" alt="">
+                    <div class="play_div">
+                        <img class="btn_play_music" src="../assets/Icons/play.svg" alt="">
+                        <img class="btn_pause_music" src="../assets/Icons/pause_icon.svg" alt="">
+                    </div>
+                    <img class="track_prev" src="../assets/Icons/track-prev.svg" alt="">
+                    <div class="random_btns">
+                        <div class="random_btns_black_block">
+                            <img src="../assets/Icons/random.svg" alt="">
+                        </div>
+                        <div class="random_btns_green_block">
+                            <img src="../assets/Icons/random.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <audio   src="../assets/music/Mav-D feat. Miyagi & Andy Panda - Темнота.mp3"></audio>
+                <div class="audio_time">
+                    <p>2:12</p> 
+                    <div class="audio_time_grey">
+                        <div class="audio_time_white"></div>
+                    </div>
+                    <p class="music_player_time_song">3:52</p>
+                </div>
+            </div>
+            <div class="music_player_right">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/homePage.js"></script>
+</body>
+</html>
